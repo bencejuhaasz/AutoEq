@@ -1,0 +1,105 @@
+[
+	{
+		"name": "Valco VMK25 (ANC on) Poweramp Equalizer",
+		"preamp": -6.3,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105,
+				"q": 0.7,
+				"gain": -4.6,
+				"color": 4280191205
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 64,
+				"q": 0.61,
+				"gain": 5.1,
+				"color": 4282557941
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 214,
+				"q": 0.69,
+				"gain": -1.2,
+				"color": 4284922730
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 1202,
+				"q": 0.57,
+				"gain": -2.1,
+				"color": 4293874512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 1833,
+				"q": 2.91,
+				"gain": 3.4,
+				"color": 4294930499
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 2264,
+				"q": 2.39,
+				"gain": 6.3,
+				"color": 4289415100
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 4511,
+				"q": 5.09,
+				"gain": 2.8,
+				"color": 4280731354
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 5239,
+				"q": 6.25,
+				"gain": -6.3,
+				"color": 4294953512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 7785,
+				"q": 1.43,
+				"gain": -3.2,
+				"color": 4287458915
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.7,
+				"gain": 3.6,
+				"color": 4293212469
+			}
+		]
+	}
+]

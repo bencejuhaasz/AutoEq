@@ -1,0 +1,105 @@
+[
+	{
+		"name": "Kiwi Ears Aventus (ANC on, double foam) Poweramp Equalizer",
+		"preamp": -2.7,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105,
+				"q": 0.7,
+				"gain": -1.7,
+				"color": 4280191205
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 43,
+				"q": 1.06,
+				"gain": 3.1,
+				"color": 4282557941
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 106,
+				"q": 1.25,
+				"gain": -2.8,
+				"color": 4284922730
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 385,
+				"q": 6.55,
+				"gain": 2.7,
+				"color": 4293874512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 539,
+				"q": 2.19,
+				"gain": -1.4,
+				"color": 4294930499
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 2229,
+				"q": 1.58,
+				"gain": 2.6,
+				"color": 4289415100
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 3383,
+				"q": 3.69,
+				"gain": -2.7,
+				"color": 4280731354
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 5584,
+				"q": 4.99,
+				"gain": -3.0,
+				"color": 4294953512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 7460,
+				"q": 3.81,
+				"gain": 3.0,
+				"color": 4287458915
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.7,
+				"gain": -0.5,
+				"color": 4293212469
+			}
+		]
+	}
+]

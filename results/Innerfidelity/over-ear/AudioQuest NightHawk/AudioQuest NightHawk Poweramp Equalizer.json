@@ -1,0 +1,105 @@
+[
+	{
+		"name": "AudioQuest NightHawk Poweramp Equalizer",
+		"preamp": -6.3,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105,
+				"q": 0.7,
+				"gain": -0.9,
+				"color": 4280191205
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 26,
+				"q": 1.98,
+				"gain": 0.8,
+				"color": 4282557941
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 62,
+				"q": 0.91,
+				"gain": 1.6,
+				"color": 4284922730
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 208,
+				"q": 0.58,
+				"gain": -6.1,
+				"color": 4293874512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 390,
+				"q": 1.25,
+				"gain": -0.9,
+				"color": 4294930499
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 966,
+				"q": 1.29,
+				"gain": 4.5,
+				"color": 4289415100
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 2596,
+				"q": 2.88,
+				"gain": 5.6,
+				"color": 4280731354
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 4186,
+				"q": 6.43,
+				"gain": 2.5,
+				"color": 4294953512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 4950,
+				"q": 2.71,
+				"gain": 5.4,
+				"color": 4287458915
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.7,
+				"gain": -2.8,
+				"color": 4293212469
+			}
+		]
+	}
+]

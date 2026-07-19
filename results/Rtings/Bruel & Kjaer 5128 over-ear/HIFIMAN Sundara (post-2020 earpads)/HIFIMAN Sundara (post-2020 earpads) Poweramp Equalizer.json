@@ -1,0 +1,105 @@
+[
+	{
+		"name": "HIFIMAN Sundara (post-2020 earpads) Poweramp Equalizer",
+		"preamp": -6.3,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105,
+				"q": 0.7,
+				"gain": 7.2,
+				"color": 4280191205
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 32,
+				"q": 7.51,
+				"gain": 1.1,
+				"color": 4282557941
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 53,
+				"q": 0.88,
+				"gain": -1.6,
+				"color": 4284922730
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 139,
+				"q": 0.17,
+				"gain": -1.6,
+				"color": 4293874512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 537,
+				"q": 2.43,
+				"gain": 1.5,
+				"color": 4294930499
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 914,
+				"q": 3.18,
+				"gain": -1.4,
+				"color": 4289415100
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 1918,
+				"q": 1.18,
+				"gain": 2.6,
+				"color": 4280731354
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 6632,
+				"q": 7.31,
+				"gain": -2.2,
+				"color": 4294953512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 9252,
+				"q": 3.28,
+				"gain": -3.0,
+				"color": 4287458915
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.7,
+				"gain": 1.6,
+				"color": 4293212469
+			}
+		]
+	}
+]

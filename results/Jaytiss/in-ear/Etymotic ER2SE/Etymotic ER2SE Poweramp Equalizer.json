@@ -1,0 +1,105 @@
+[
+	{
+		"name": "Etymotic ER2SE Poweramp Equalizer",
+		"preamp": -6.1,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105,
+				"q": 0.7,
+				"gain": 6.1,
+				"color": 4280191205
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 77,
+				"q": 2.08,
+				"gain": 1.2,
+				"color": 4282557941
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 255,
+				"q": 1.06,
+				"gain": -0.7,
+				"color": 4284922730
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 752,
+				"q": 1.52,
+				"gain": 0.8,
+				"color": 4293874512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 1310,
+				"q": 1.95,
+				"gain": -1.8,
+				"color": 4294930499
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 2171,
+				"q": 1.21,
+				"gain": -4.2,
+				"color": 4289415100
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 2593,
+				"q": 4.02,
+				"gain": -1.0,
+				"color": 4280731354
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 4163,
+				"q": 2.05,
+				"gain": 2.4,
+				"color": 4294953512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 6625,
+				"q": 1.81,
+				"gain": 4.1,
+				"color": 4287458915
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.7,
+				"gain": -1.6,
+				"color": 4293212469
+			}
+		]
+	}
+]

@@ -1,0 +1,105 @@
+[
+	{
+		"name": "JCally AT1 Poweramp Equalizer",
+		"preamp": -6.3,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105,
+				"q": 0.7,
+				"gain": 6.1,
+				"color": 4280191205
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 63,
+				"q": 2.66,
+				"gain": 1.0,
+				"color": 4282557941
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 168,
+				"q": 1.51,
+				"gain": -0.8,
+				"color": 4284922730
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 410,
+				"q": 0.65,
+				"gain": -6.2,
+				"color": 4293874512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 1035,
+				"q": 0.89,
+				"gain": 4.0,
+				"color": 4294930499
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 2388,
+				"q": 0.6,
+				"gain": 6.0,
+				"color": 4289415100
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 3790,
+				"q": 2.71,
+				"gain": -3.1,
+				"color": 4280731354
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 5609,
+				"q": 4.23,
+				"gain": -10.0,
+				"color": 4294953512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 8014,
+				"q": 2.33,
+				"gain": -3.6,
+				"color": 4287458915
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.7,
+				"gain": -2.0,
+				"color": 4293212469
+			}
+		]
+	}
+]

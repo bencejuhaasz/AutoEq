@@ -1,0 +1,105 @@
+[
+	{
+		"name": "Beyerdynamic DT 1990 (analytic earpads) Poweramp Equalizer",
+		"preamp": -6.8,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105,
+				"q": 0.7,
+				"gain": 4.6,
+				"color": 4280191205
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 20,
+				"q": 5.96,
+				"gain": 1.8,
+				"color": 4282557941
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 30,
+				"q": 2.05,
+				"gain": 1.5,
+				"color": 4284922730
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 217,
+				"q": 0.72,
+				"gain": -2.2,
+				"color": 4293874512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 289,
+				"q": 0.97,
+				"gain": -0.5,
+				"color": 4294930499
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 1009,
+				"q": 0.3,
+				"gain": 1.1,
+				"color": 4289415100
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 4230,
+				"q": 3.74,
+				"gain": 4.8,
+				"color": 4280731354
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 7440,
+				"q": 3.19,
+				"gain": -3.5,
+				"color": 4294953512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 4.87,
+				"gain": -1.7,
+				"color": 4287458915
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.7,
+				"gain": -7.5,
+				"color": 4293212469
+			}
+		]
+	}
+]

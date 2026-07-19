@@ -1,0 +1,105 @@
+[
+	{
+		"name": "Final Audio F3100 Poweramp Equalizer",
+		"preamp": -6.4,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105,
+				"q": 0.7,
+				"gain": 5.9,
+				"color": 4280191205
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 33,
+				"q": 1.98,
+				"gain": 0.4,
+				"color": 4282557941
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 65,
+				"q": 2.3,
+				"gain": 1.5,
+				"color": 4284922730
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 266,
+				"q": 0.53,
+				"gain": -3.2,
+				"color": 4293874512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 2210,
+				"q": 2.01,
+				"gain": 3.7,
+				"color": 4294930499
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 3342,
+				"q": 3.66,
+				"gain": -6.7,
+				"color": 4289415100
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 4577,
+				"q": 3.7,
+				"gain": 3.8,
+				"color": 4280731354
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 6306,
+				"q": 1.24,
+				"gain": 5.9,
+				"color": 4294953512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 7520,
+				"q": 5.53,
+				"gain": -2.9,
+				"color": 4287458915
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.7,
+				"gain": -0.7,
+				"color": 4293212469
+			}
+		]
+	}
+]

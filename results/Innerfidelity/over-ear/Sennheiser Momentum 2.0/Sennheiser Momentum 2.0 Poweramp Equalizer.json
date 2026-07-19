@@ -1,0 +1,105 @@
+[
+	{
+		"name": "Sennheiser Momentum 2.0 Poweramp Equalizer",
+		"preamp": -6.4,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105,
+				"q": 0.7,
+				"gain": 8.1,
+				"color": 4280191205
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 60,
+				"q": 0.53,
+				"gain": -6.3,
+				"color": 4282557941
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 169,
+				"q": 5.07,
+				"gain": -0.1,
+				"color": 4284922730
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 1169,
+				"q": 0.53,
+				"gain": -3.1,
+				"color": 4293874512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 3778,
+				"q": 2.3,
+				"gain": 3.9,
+				"color": 4294930499
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 4063,
+				"q": 5.93,
+				"gain": 0.7,
+				"color": 4289415100
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 4970,
+				"q": 4.97,
+				"gain": -3.6,
+				"color": 4280731354
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 6739,
+				"q": 2.76,
+				"gain": 5.6,
+				"color": 4294953512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 9763,
+				"q": 3.0,
+				"gain": 1.4,
+				"color": 4287458915
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.7,
+				"gain": 6.2,
+				"color": 4293212469
+			}
+		]
+	}
+]

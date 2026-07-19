@@ -1,0 +1,105 @@
+[
+	{
+		"name": "Amazon Echo Buds Poweramp Equalizer",
+		"preamp": -4.4,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105,
+				"q": 0.7,
+				"gain": -0.9,
+				"color": 4280191205
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 28,
+				"q": 4.47,
+				"gain": 4.3,
+				"color": 4282557941
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 40,
+				"q": 6.67,
+				"gain": 2.9,
+				"color": 4284922730
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 65,
+				"q": 1.07,
+				"gain": -4.2,
+				"color": 4293874512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 145,
+				"q": 1.1,
+				"gain": 5.0,
+				"color": 4294930499
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 241,
+				"q": 1.35,
+				"gain": 1.2,
+				"color": 4289415100
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 726,
+				"q": 3.58,
+				"gain": 1.7,
+				"color": 4280731354
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 1092,
+				"q": 1.98,
+				"gain": -3.3,
+				"color": 4294953512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 2340,
+				"q": 3.23,
+				"gain": -4.1,
+				"color": 4287458915
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.7,
+				"gain": -6.0,
+				"color": 4293212469
+			}
+		]
+	}
+]

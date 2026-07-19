@@ -1,0 +1,105 @@
+[
+	{
+		"name": "MYER-AUDIO SLIIVO SL41 Poweramp Equalizer",
+		"preamp": -3.4,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105,
+				"q": 0.7,
+				"gain": -1.6,
+				"color": 4280191205
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 27,
+				"q": 2.8,
+				"gain": -0.5,
+				"color": 4282557941
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 70,
+				"q": 1.95,
+				"gain": 0.7,
+				"color": 4284922730
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 371,
+				"q": 0.44,
+				"gain": -0.6,
+				"color": 4293874512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 879,
+				"q": 2.08,
+				"gain": 1.0,
+				"color": 4294930499
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 2602,
+				"q": 3.65,
+				"gain": -2.6,
+				"color": 4289415100
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 3770,
+				"q": 2.65,
+				"gain": 3.7,
+				"color": 4280731354
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 5190,
+				"q": 6.84,
+				"gain": -2.0,
+				"color": 4294953512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 6359,
+				"q": 5.61,
+				"gain": 3.3,
+				"color": 4287458915
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.7,
+				"gain": -3.6,
+				"color": 4293212469
+			}
+		]
+	}
+]

@@ -1,0 +1,105 @@
+[
+	{
+		"name": "KZ ZS10 Pro 2 (on-on-off-off) Poweramp Equalizer",
+		"preamp": -3.0,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105,
+				"q": 0.7,
+				"gain": 0.7,
+				"color": 4280191205
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 62,
+				"q": 0.85,
+				"gain": 2.1,
+				"color": 4282557941
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 90,
+				"q": 1.58,
+				"gain": 0.7,
+				"color": 4284922730
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 417,
+				"q": 0.97,
+				"gain": 0.4,
+				"color": 4293874512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 736,
+				"q": 1.03,
+				"gain": 1.4,
+				"color": 4294930499
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 1249,
+				"q": 1.97,
+				"gain": -0.7,
+				"color": 4289415100
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 3242,
+				"q": 3.07,
+				"gain": -2.5,
+				"color": 4280731354
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 4419,
+				"q": 4.06,
+				"gain": 1.4,
+				"color": 4294953512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 7842,
+				"q": 4.78,
+				"gain": -1.0,
+				"color": 4287458915
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.7,
+				"gain": -11.2,
+				"color": 4293212469
+			}
+		]
+	}
+]

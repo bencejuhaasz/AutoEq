@@ -1,0 +1,105 @@
+[
+	{
+		"name": "Moondrop Variations Poweramp Equalizer",
+		"preamp": -2.0,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105,
+				"q": 0.7,
+				"gain": -1.4,
+				"color": 4280191205
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 22,
+				"q": 3.0,
+				"gain": -1.0,
+				"color": 4282557941
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 33,
+				"q": 1.97,
+				"gain": -1.2,
+				"color": 4284922730
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 235,
+				"q": 1.14,
+				"gain": 2.0,
+				"color": 4293874512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 718,
+				"q": 1.45,
+				"gain": 0.5,
+				"color": 4294930499
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 1328,
+				"q": 1.97,
+				"gain": -1.6,
+				"color": 4289415100
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 3308,
+				"q": 1.24,
+				"gain": -2.5,
+				"color": 4280731354
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 4196,
+				"q": 4.29,
+				"gain": 1.0,
+				"color": 4294953512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 5964,
+				"q": 0.93,
+				"gain": 2.5,
+				"color": 4287458915
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.7,
+				"gain": -6.7,
+				"color": 4293212469
+			}
+		]
+	}
+]

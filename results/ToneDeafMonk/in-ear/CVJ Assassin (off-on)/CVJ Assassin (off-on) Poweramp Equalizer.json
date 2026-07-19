@@ -1,0 +1,105 @@
+[
+	{
+		"name": "CVJ Assassin (off-on) Poweramp Equalizer",
+		"preamp": -6.3,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105,
+				"q": 0.7,
+				"gain": -0.9,
+				"color": 4280191205
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 68,
+				"q": 1.27,
+				"gain": 1.0,
+				"color": 4282557941
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 182,
+				"q": 0.71,
+				"gain": -2.4,
+				"color": 4284922730
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 1527,
+				"q": 1.21,
+				"gain": -4.3,
+				"color": 4293874512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 2829,
+				"q": 2.08,
+				"gain": 3.1,
+				"color": 4294930499
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 4372,
+				"q": 3.85,
+				"gain": -1.4,
+				"color": 4289415100
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 5634,
+				"q": 0.87,
+				"gain": 6.3,
+				"color": 4280731354
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 6506,
+				"q": 5.54,
+				"gain": 1.5,
+				"color": 4294953512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 9114,
+				"q": 1.07,
+				"gain": -1.8,
+				"color": 4287458915
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.7,
+				"gain": -0.2,
+				"color": 4293212469
+			}
+		]
+	}
+]

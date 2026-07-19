@@ -1,0 +1,105 @@
+[
+	{
+		"name": "Custom Art Fibae 5 Poweramp Equalizer",
+		"preamp": -4.9,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105,
+				"q": 0.7,
+				"gain": -0.4,
+				"color": 4280191205
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 28,
+				"q": 2.22,
+				"gain": -0.5,
+				"color": 4282557941
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 69,
+				"q": 1.28,
+				"gain": 1.1,
+				"color": 4284922730
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 198,
+				"q": 0.79,
+				"gain": -2.2,
+				"color": 4293874512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 345,
+				"q": 1.67,
+				"gain": -0.4,
+				"color": 4294930499
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 826,
+				"q": 1.49,
+				"gain": 1.1,
+				"color": 4289415100
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 3095,
+				"q": 2.18,
+				"gain": 5.0,
+				"color": 4280731354
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 5209,
+				"q": 6.08,
+				"gain": 3.0,
+				"color": 4294953512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 6473,
+				"q": 7.39,
+				"gain": -3.5,
+				"color": 4287458915
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.7,
+				"gain": -12.4,
+				"color": 4293212469
+			}
+		]
+	}
+]

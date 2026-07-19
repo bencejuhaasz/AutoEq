@@ -1,0 +1,105 @@
+[
+	{
+		"name": "Panasonic RP-HJE120 Poweramp Equalizer",
+		"preamp": -6.2,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105,
+				"q": 0.7,
+				"gain": -4.7,
+				"color": 4280191205
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 56,
+				"q": 0.87,
+				"gain": 1.2,
+				"color": 4282557941
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 175,
+				"q": 0.65,
+				"gain": -6.4,
+				"color": 4284922730
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 322,
+				"q": 1.91,
+				"gain": -1.0,
+				"color": 4293874512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 1685,
+				"q": 2.97,
+				"gain": -1.8,
+				"color": 4294930499
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 2087,
+				"q": 2.16,
+				"gain": -7.8,
+				"color": 4289415100
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 2435,
+				"q": 4.72,
+				"gain": 1.4,
+				"color": 4280731354
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 3567,
+				"q": 0.55,
+				"gain": 6.1,
+				"color": 4294953512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 8512,
+				"q": 1.28,
+				"gain": 3.0,
+				"color": 4287458915
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.7,
+				"gain": 2.9,
+				"color": 4293212469
+			}
+		]
+	}
+]

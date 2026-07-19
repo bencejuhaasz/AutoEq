@@ -1,0 +1,105 @@
+[
+	{
+		"name": "Bowers & Wilkins P5 Series 2 Poweramp Equalizer",
+		"preamp": -6.1,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105,
+				"q": 0.7,
+				"gain": 0.5,
+				"color": 4280191205
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 36,
+				"q": 0.88,
+				"gain": -1.1,
+				"color": 4282557941
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 104,
+				"q": 0.41,
+				"gain": -3.3,
+				"color": 4284922730
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 383,
+				"q": 1.73,
+				"gain": 5.6,
+				"color": 4293874512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 630,
+				"q": 1.25,
+				"gain": 2.3,
+				"color": 4294930499
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 1686,
+				"q": 1.44,
+				"gain": -2.9,
+				"color": 4289415100
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 2537,
+				"q": 1.71,
+				"gain": -5.8,
+				"color": 4280731354
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 3455,
+				"q": 2.01,
+				"gain": 4.3,
+				"color": 4294953512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 9379,
+				"q": 3.33,
+				"gain": 4.8,
+				"color": 4287458915
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.7,
+				"gain": 3.2,
+				"color": 4293212469
+			}
+		]
+	}
+]

@@ -1,0 +1,105 @@
+[
+	{
+		"name": "OnePlus Buds 3 Poweramp Equalizer",
+		"preamp": -1.5,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105,
+				"q": 0.7,
+				"gain": -0.0,
+				"color": 4280191205
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 67,
+				"q": 0.77,
+				"gain": -3.0,
+				"color": 4282557941
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 174,
+				"q": 0.29,
+				"gain": -0.4,
+				"color": 4284922730
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 815,
+				"q": 2.0,
+				"gain": 0.8,
+				"color": 4293874512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 1358,
+				"q": 0.93,
+				"gain": 1.4,
+				"color": 4294930499
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 1605,
+				"q": 5.18,
+				"gain": -0.3,
+				"color": 4289415100
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 2826,
+				"q": 3.97,
+				"gain": -2.5,
+				"color": 4280731354
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 4209,
+				"q": 2.68,
+				"gain": 1.5,
+				"color": 4294953512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 9245,
+				"q": 1.89,
+				"gain": 5.3,
+				"color": 4287458915
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.7,
+				"gain": -10.4,
+				"color": 4293212469
+			}
+		]
+	}
+]

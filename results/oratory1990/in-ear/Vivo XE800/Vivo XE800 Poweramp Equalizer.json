@@ -1,0 +1,105 @@
+[
+	{
+		"name": "Vivo XE800 Poweramp Equalizer",
+		"preamp": -4.5,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105,
+				"q": 0.7,
+				"gain": 4.0,
+				"color": 4280191205
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 65,
+				"q": 1.48,
+				"gain": 0.4,
+				"color": 4282557941
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 154,
+				"q": 2.09,
+				"gain": -0.6,
+				"color": 4284922730
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 282,
+				"q": 2.34,
+				"gain": -0.8,
+				"color": 4293874512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 1643,
+				"q": 1.12,
+				"gain": -2.3,
+				"color": 4294930499
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 3274,
+				"q": 2.81,
+				"gain": 1.5,
+				"color": 4289415100
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 4200,
+				"q": 1.81,
+				"gain": 4.4,
+				"color": 4280731354
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 5900,
+				"q": 6.77,
+				"gain": -1.8,
+				"color": 4294953512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 8700,
+				"q": 2.43,
+				"gain": -2.7,
+				"color": 4287458915
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.7,
+				"gain": 2.2,
+				"color": 4293212469
+			}
+		]
+	}
+]

@@ -1,0 +1,105 @@
+[
+	{
+		"name": "Penon Turbo (off, on-off-on) Poweramp Equalizer",
+		"preamp": -2.4,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105,
+				"q": 0.7,
+				"gain": 1.3,
+				"color": 4280191205
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 118,
+				"q": 0.26,
+				"gain": -2.5,
+				"color": 4282557941
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 136,
+				"q": 1.89,
+				"gain": -1.1,
+				"color": 4284922730
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 332,
+				"q": 2.22,
+				"gain": 1.0,
+				"color": 4293874512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 472,
+				"q": 0.84,
+				"gain": 3.7,
+				"color": 4294930499
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 1170,
+				"q": 1.36,
+				"gain": -1.8,
+				"color": 4289415100
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 3209,
+				"q": 4.2,
+				"gain": 1.5,
+				"color": 4280731354
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 4973,
+				"q": 3.73,
+				"gain": -1.8,
+				"color": 4294953512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 6607,
+				"q": 5.96,
+				"gain": 1.4,
+				"color": 4287458915
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.7,
+				"gain": 2.1,
+				"color": 4293212469
+			}
+		]
+	}
+]

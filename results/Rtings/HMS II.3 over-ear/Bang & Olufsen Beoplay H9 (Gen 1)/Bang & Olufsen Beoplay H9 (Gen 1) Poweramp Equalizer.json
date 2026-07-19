@@ -1,0 +1,105 @@
+[
+	{
+		"name": "Bang & Olufsen Beoplay H9 (Gen 1) Poweramp Equalizer",
+		"preamp": -5.4,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105,
+				"q": 0.7,
+				"gain": -9.8,
+				"color": 4280191205
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 58,
+				"q": 0.78,
+				"gain": 5.0,
+				"color": 4282557941
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 189,
+				"q": 1.31,
+				"gain": -3.3,
+				"color": 4284922730
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 436,
+				"q": 1.85,
+				"gain": 1.6,
+				"color": 4293874512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 690,
+				"q": 1.17,
+				"gain": 5.2,
+				"color": 4294930499
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 2463,
+				"q": 5.64,
+				"gain": -3.3,
+				"color": 4289415100
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 3531,
+				"q": 2.44,
+				"gain": -6.5,
+				"color": 4280731354
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 4249,
+				"q": 4.35,
+				"gain": 3.1,
+				"color": 4294953512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 6254,
+				"q": 4.15,
+				"gain": 4.7,
+				"color": 4287458915
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.7,
+				"gain": -8.1,
+				"color": 4293212469
+			}
+		]
+	}
+]

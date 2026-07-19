@@ -1,0 +1,105 @@
+[
+	{
+		"name": "Simgot Audio ET142 (blazed titanium transparent nozzle) Poweramp Equalizer",
+		"preamp": -2.7,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105,
+				"q": 0.7,
+				"gain": -3.9,
+				"color": 4280191205
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 61,
+				"q": 0.81,
+				"gain": 2.4,
+				"color": 4282557941
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 168,
+				"q": 0.97,
+				"gain": -2.1,
+				"color": 4284922730
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 722,
+				"q": 0.77,
+				"gain": 2.5,
+				"color": 4293874512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 1327,
+				"q": 1.86,
+				"gain": -1.2,
+				"color": 4294930499
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 2192,
+				"q": 1.79,
+				"gain": -5.1,
+				"color": 4289415100
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 3182,
+				"q": 2.63,
+				"gain": 2.0,
+				"color": 4280731354
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 7244,
+				"q": 6.55,
+				"gain": -3.1,
+				"color": 4294953512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 7335,
+				"q": 0.64,
+				"gain": 3.9,
+				"color": 4287458915
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.7,
+				"gain": -6.3,
+				"color": 4293212469
+			}
+		]
+	}
+]

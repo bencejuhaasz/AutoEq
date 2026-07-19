@@ -1,0 +1,105 @@
+[
+	{
+		"name": "JVC HA-FX7 Gumy Poweramp Equalizer",
+		"preamp": -5.8,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105,
+				"q": 0.7,
+				"gain": -2.0,
+				"color": 4280191205
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 154,
+				"q": 0.59,
+				"gain": -6.2,
+				"color": 4282557941
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 311,
+				"q": 3.33,
+				"gain": -1.5,
+				"color": 4284922730
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 818,
+				"q": 1.36,
+				"gain": 3.8,
+				"color": 4293874512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 1332,
+				"q": 2.51,
+				"gain": -1.2,
+				"color": 4294930499
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 2321,
+				"q": 0.57,
+				"gain": 6.2,
+				"color": 4289415100
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 3246,
+				"q": 2.86,
+				"gain": -2.6,
+				"color": 4280731354
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 6224,
+				"q": 3.67,
+				"gain": -8.2,
+				"color": 4294953512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 8529,
+				"q": 3.98,
+				"gain": -2.4,
+				"color": 4287458915
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.7,
+				"gain": 4.0,
+				"color": 4293212469
+			}
+		]
+	}
+]

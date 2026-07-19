@@ -1,0 +1,105 @@
+[
+	{
+		"name": "Oriveti OH700VB (bass switch off) Poweramp Equalizer",
+		"preamp": -6.4,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105,
+				"q": 0.7,
+				"gain": -0.3,
+				"color": 4280191205
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 32,
+				"q": 0.81,
+				"gain": -1.5,
+				"color": 4282557941
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 115,
+				"q": 0.77,
+				"gain": 3.4,
+				"color": 4284922730
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 337,
+				"q": 0.73,
+				"gain": -2.0,
+				"color": 4293874512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 1448,
+				"q": 1.02,
+				"gain": -2.7,
+				"color": 4294930499
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 2319,
+				"q": 1.56,
+				"gain": 1.0,
+				"color": 4289415100
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 5911,
+				"q": 1.8,
+				"gain": 7.0,
+				"color": 4280731354
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 7126,
+				"q": 3.51,
+				"gain": -2.1,
+				"color": 4294953512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 8694,
+				"q": 1.13,
+				"gain": 1.7,
+				"color": 4287458915
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.7,
+				"gain": -8.4,
+				"color": 4293212469
+			}
+		]
+	}
+]

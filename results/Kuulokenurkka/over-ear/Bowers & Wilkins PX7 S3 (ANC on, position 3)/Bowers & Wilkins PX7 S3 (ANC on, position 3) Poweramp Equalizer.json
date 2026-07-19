@@ -1,0 +1,105 @@
+[
+	{
+		"name": "Bowers & Wilkins PX7 S3 (ANC on, position 3) Poweramp Equalizer",
+		"preamp": -5.8,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105,
+				"q": 0.7,
+				"gain": -3.2,
+				"color": 4280191205
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 61,
+				"q": 3.48,
+				"gain": 2.4,
+				"color": 4282557941
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 108,
+				"q": 0.76,
+				"gain": -6.4,
+				"color": 4284922730
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 262,
+				"q": 2.44,
+				"gain": -1.7,
+				"color": 4293874512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 456,
+				"q": 0.82,
+				"gain": 2.2,
+				"color": 4294930499
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 1800,
+				"q": 1.35,
+				"gain": 6.2,
+				"color": 4289415100
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 2580,
+				"q": 3.04,
+				"gain": -4.0,
+				"color": 4280731354
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 5201,
+				"q": 5.92,
+				"gain": 3.1,
+				"color": 4294953512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 9792,
+				"q": 1.73,
+				"gain": -3.3,
+				"color": 4287458915
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.7,
+				"gain": -2.4,
+				"color": 4293212469
+			}
+		]
+	}
+]

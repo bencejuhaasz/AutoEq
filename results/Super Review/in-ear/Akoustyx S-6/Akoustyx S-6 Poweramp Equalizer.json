@@ -1,0 +1,105 @@
+[
+	{
+		"name": "Akoustyx S-6 Poweramp Equalizer",
+		"preamp": -4.4,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105,
+				"q": 0.7,
+				"gain": -8.5,
+				"color": 4280191205
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 63,
+				"q": 0.54,
+				"gain": 7.1,
+				"color": 4282557941
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 158,
+				"q": 1.0,
+				"gain": -2.3,
+				"color": 4284922730
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 754,
+				"q": 0.69,
+				"gain": 4.3,
+				"color": 4293874512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 2141,
+				"q": 1.36,
+				"gain": 3.8,
+				"color": 4294930499
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 2903,
+				"q": 5.97,
+				"gain": -1.6,
+				"color": 4289415100
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 3044,
+				"q": 1.45,
+				"gain": -7.7,
+				"color": 4280731354
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 3670,
+				"q": 4.58,
+				"gain": 1.2,
+				"color": 4294953512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 5134,
+				"q": 3.44,
+				"gain": -5.8,
+				"color": 4287458915
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.7,
+				"gain": -6.3,
+				"color": 4293212469
+			}
+		]
+	}
+]

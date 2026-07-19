@@ -1,0 +1,105 @@
+[
+	{
+		"name": "Truthear x Crinacle Zero Poweramp Equalizer",
+		"preamp": -3.9,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105,
+				"q": 0.7,
+				"gain": 2.1,
+				"color": 4280191205
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 55,
+				"q": 0.47,
+				"gain": -5.7,
+				"color": 4282557941
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 107,
+				"q": 1.39,
+				"gain": -1.8,
+				"color": 4284922730
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 186,
+				"q": 1.68,
+				"gain": 2.6,
+				"color": 4293874512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 424,
+				"q": 0.73,
+				"gain": 4.6,
+				"color": 4294930499
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 1226,
+				"q": 0.54,
+				"gain": -1.4,
+				"color": 4289415100
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 2790,
+				"q": 3.3,
+				"gain": -0.6,
+				"color": 4280731354
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 4911,
+				"q": 2.0,
+				"gain": -4.2,
+				"color": 4294953512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 9858,
+				"q": 2.13,
+				"gain": -2.4,
+				"color": 4287458915
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.7,
+				"gain": 3.7,
+				"color": 4293212469
+			}
+		]
+	}
+]

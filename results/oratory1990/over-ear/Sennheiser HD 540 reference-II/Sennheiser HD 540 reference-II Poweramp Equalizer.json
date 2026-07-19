@@ -1,0 +1,105 @@
+[
+	{
+		"name": "Sennheiser HD 540 reference-II Poweramp Equalizer",
+		"preamp": -6.5,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105,
+				"q": 0.7,
+				"gain": 5.6,
+				"color": 4280191205
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 25,
+				"q": 2.82,
+				"gain": 0.6,
+				"color": 4282557941
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 45,
+				"q": 2.84,
+				"gain": 1.6,
+				"color": 4284922730
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 107,
+				"q": 1.88,
+				"gain": -0.9,
+				"color": 4293874512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 209,
+				"q": 0.61,
+				"gain": -3.8,
+				"color": 4294930499
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 970,
+				"q": 4.47,
+				"gain": 1.6,
+				"color": 4289415100
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 1788,
+				"q": 1.36,
+				"gain": 4.5,
+				"color": 4280731354
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 6191,
+				"q": 5.16,
+				"gain": -5.1,
+				"color": 4294953512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 9142,
+				"q": 2.09,
+				"gain": 2.1,
+				"color": 4287458915
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.7,
+				"gain": -3.4,
+				"color": 4293212469
+			}
+		]
+	}
+]

@@ -1,0 +1,105 @@
+[
+	{
+		"name": "AKG K240 Sextett (Dekoni Choice Leather DT earpads) Poweramp Equalizer",
+		"preamp": -6.6,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105,
+				"q": 0.7,
+				"gain": 6.5,
+				"color": 4280191205
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 102,
+				"q": 0.23,
+				"gain": -9.5,
+				"color": 4282557941
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 111,
+				"q": 1.92,
+				"gain": -1.5,
+				"color": 4284922730
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 501,
+				"q": 1.12,
+				"gain": 4.5,
+				"color": 4293874512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 1435,
+				"q": 3.66,
+				"gain": -0.7,
+				"color": 4294930499
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 1442,
+				"q": 4.11,
+				"gain": -0.1,
+				"color": 4289415100
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 1444,
+				"q": 1.41,
+				"gain": 7.4,
+				"color": 4280731354
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 3588,
+				"q": 3.12,
+				"gain": 6.1,
+				"color": 4294953512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 5461,
+				"q": 5.13,
+				"gain": -5.3,
+				"color": 4287458915
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.7,
+				"gain": 3.7,
+				"color": 4293212469
+			}
+		]
+	}
+]

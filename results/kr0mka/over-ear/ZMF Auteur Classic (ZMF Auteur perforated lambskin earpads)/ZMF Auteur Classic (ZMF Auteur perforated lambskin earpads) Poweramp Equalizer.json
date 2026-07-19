@@ -1,0 +1,105 @@
+[
+	{
+		"name": "ZMF Auteur Classic (ZMF Auteur perforated lambskin earpads) Poweramp Equalizer",
+		"preamp": -6.1,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105,
+				"q": 0.7,
+				"gain": 3.9,
+				"color": 4280191205
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 125,
+				"q": 0.28,
+				"gain": -4.6,
+				"color": 4282557941
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 1506,
+				"q": 4.88,
+				"gain": -2.0,
+				"color": 4284922730
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 2124,
+				"q": 2.0,
+				"gain": 6.6,
+				"color": 4293874512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 3003,
+				"q": 5.15,
+				"gain": -2.5,
+				"color": 4294930499
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 3991,
+				"q": 6.16,
+				"gain": 2.7,
+				"color": 4289415100
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 5437,
+				"q": 7.26,
+				"gain": -3.1,
+				"color": 4280731354
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 7165,
+				"q": 10.47,
+				"gain": 4.4,
+				"color": 4294953512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 8808,
+				"q": 11.58,
+				"gain": 6.0,
+				"color": 4287458915
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.7,
+				"gain": -1.6,
+				"color": 4293212469
+			}
+		]
+	}
+]

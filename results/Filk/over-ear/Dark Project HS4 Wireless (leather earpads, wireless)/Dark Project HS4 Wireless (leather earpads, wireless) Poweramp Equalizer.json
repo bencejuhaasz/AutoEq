@@ -1,0 +1,105 @@
+[
+	{
+		"name": "Dark Project HS4 Wireless (leather earpads, wireless) Poweramp Equalizer",
+		"preamp": -7.1,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105,
+				"q": 0.7,
+				"gain": 2.1,
+				"color": 4280191205
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 163,
+				"q": 0.41,
+				"gain": -6.8,
+				"color": 4282557941
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 397,
+				"q": 0.96,
+				"gain": 13.9,
+				"color": 4284922730
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 898,
+				"q": 0.78,
+				"gain": -8.5,
+				"color": 4293874512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 2574,
+				"q": 1.08,
+				"gain": 4.7,
+				"color": 4294930499
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 4346,
+				"q": 0.97,
+				"gain": 5.5,
+				"color": 4289415100
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 4757,
+				"q": 2.98,
+				"gain": 5.6,
+				"color": 4280731354
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 5209,
+				"q": 3.74,
+				"gain": -8.4,
+				"color": 4294953512
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 7861,
+				"q": 1.16,
+				"gain": -6.8,
+				"color": 4287458915
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.7,
+				"gain": -8.3,
+				"color": 4293212469
+			}
+		]
+	}
+]

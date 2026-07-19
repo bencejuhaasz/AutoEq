@@ -1,0 +1,105 @@
+[
+	{
+		"name": "JBL Tune 720BT Poweramp Equalizer",
+		"preamp": -3.6,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105.0,
+				"q": 0.7,
+				"gain": 4.7,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 70.6,
+				"q": 0.6,
+				"gain": -7.9,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 180.9,
+				"q": 2.23,
+				"gain": 2.8,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 618.3,
+				"q": 1.35,
+				"gain": -2.3,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 952.2,
+				"q": 2.69,
+				"gain": 2.2,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 1478.7,
+				"q": 1.34,
+				"gain": 3.8,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 2714.8,
+				"q": 4.38,
+				"gain": -1.7,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 3409.1,
+				"q": 2.26,
+				"gain": -3.0,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 4743.1,
+				"q": 4.08,
+				"gain": 4.5,
+				"color": 0
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000.0,
+				"q": 0.7,
+				"gain": -5.9,
+				"color": 0
+			}
+		]
+	}
+]

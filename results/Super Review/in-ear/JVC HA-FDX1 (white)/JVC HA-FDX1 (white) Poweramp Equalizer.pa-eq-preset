@@ -1,0 +1,105 @@
+[
+	{
+		"name": "JVC HA-FDX1 (white) Poweramp Equalizer",
+		"preamp": -4.8,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105.0,
+				"q": 0.7,
+				"gain": 4.2,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 69.5,
+				"q": 0.78,
+				"gain": 0.7,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 194.9,
+				"q": 1.09,
+				"gain": -1.1,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 315.1,
+				"q": 1.4,
+				"gain": -0.4,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 872.0,
+				"q": 2.02,
+				"gain": 0.9,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 4135.8,
+				"q": 2.07,
+				"gain": -4.9,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 5708.1,
+				"q": 3.92,
+				"gain": 1.1,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 6241.9,
+				"q": 2.36,
+				"gain": 5.2,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 8671.0,
+				"q": 3.51,
+				"gain": 1.8,
+				"color": 0
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000.0,
+				"q": 0.7,
+				"gain": -2.4,
+				"color": 0
+			}
+		]
+	}
+]

@@ -1,0 +1,105 @@
+[
+	{
+		"name": "FiiO FT5 (pleather earpads) Poweramp Equalizer",
+		"preamp": -4.9,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105.0,
+				"q": 0.7,
+				"gain": 2.8,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 22.6,
+				"q": 3.17,
+				"gain": 1.7,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 36.2,
+				"q": 1.5,
+				"gain": 1.5,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 126.9,
+				"q": 1.18,
+				"gain": -1.0,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 321.8,
+				"q": 0.73,
+				"gain": -5.1,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 1208.0,
+				"q": 0.99,
+				"gain": 5.1,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 1915.2,
+				"q": 3.02,
+				"gain": 2.0,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 4682.9,
+				"q": 3.06,
+				"gain": 2.4,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 6116.3,
+				"q": 6.18,
+				"gain": -5.7,
+				"color": 0
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000.0,
+				"q": 0.7,
+				"gain": -3.9,
+				"color": 0
+			}
+		]
+	}
+]

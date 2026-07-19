@@ -1,0 +1,105 @@
+[
+	{
+		"name": "Sennheiser HD 800 (SDR mod) Poweramp Equalizer",
+		"preamp": -7.0,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105.0,
+				"q": 0.7,
+				"gain": 4.0,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 20.0,
+				"q": 9.3,
+				"gain": 2.0,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 27.2,
+				"q": 1.51,
+				"gain": 2.0,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 67.6,
+				"q": 4.76,
+				"gain": 1.6,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 224.3,
+				"q": 0.53,
+				"gain": -3.4,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 762.9,
+				"q": 1.23,
+				"gain": -1.1,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 1691.2,
+				"q": 1.22,
+				"gain": 6.1,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 4237.9,
+				"q": 2.87,
+				"gain": 1.4,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 5898.7,
+				"q": 3.7,
+				"gain": -4.3,
+				"color": 0
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000.0,
+				"q": 0.7,
+				"gain": -4.5,
+				"color": 0
+			}
+		]
+	}
+]

@@ -1,0 +1,105 @@
+[
+	{
+		"name": "Sennheiser PC38X Poweramp Equalizer",
+		"preamp": -6.6,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105.0,
+				"q": 0.7,
+				"gain": 4.1,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 21.1,
+				"q": 7.8,
+				"gain": 2.0,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 27.8,
+				"q": 2.66,
+				"gain": 2.4,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 61.1,
+				"q": 2.36,
+				"gain": -1.0,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 146.7,
+				"q": 0.43,
+				"gain": -2.0,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 495.0,
+				"q": 0.88,
+				"gain": 1.2,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 1334.9,
+				"q": 1.19,
+				"gain": -2.2,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 5223.7,
+				"q": 6.07,
+				"gain": -2.5,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 9477.1,
+				"q": 1.14,
+				"gain": 7.0,
+				"color": 0
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000.0,
+				"q": 0.7,
+				"gain": -1.7,
+				"color": 0
+			}
+		]
+	}
+]

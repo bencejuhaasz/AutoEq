@@ -1,0 +1,105 @@
+[
+	{
+		"name": "Night Oblivion Butastur (on-on) Poweramp Equalizer",
+		"preamp": -2.9,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105.0,
+				"q": 0.7,
+				"gain": -1.7,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 184.3,
+				"q": 1.23,
+				"gain": -1.9,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 681.9,
+				"q": 0.86,
+				"gain": 2.2,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 1430.4,
+				"q": 1.55,
+				"gain": -2.6,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 2472.5,
+				"q": 3.05,
+				"gain": 2.7,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 3981.2,
+				"q": 1.98,
+				"gain": 3.1,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 4764.6,
+				"q": 5.31,
+				"gain": -2.5,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 6284.0,
+				"q": 5.87,
+				"gain": 2.4,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 8538.6,
+				"q": 1.4,
+				"gain": -2.7,
+				"color": 0
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000.0,
+				"q": 0.7,
+				"gain": -0.5,
+				"color": 0
+			}
+		]
+	}
+]

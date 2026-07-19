@@ -1,0 +1,105 @@
+[
+	{
+		"name": "Ultimate Ears FITS Poweramp Equalizer",
+		"preamp": -6.0,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105.0,
+				"q": 0.7,
+				"gain": 6.0,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 72.2,
+				"q": 1.87,
+				"gain": 1.1,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 293.6,
+				"q": 1.15,
+				"gain": -2.6,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 772.8,
+				"q": 2.2,
+				"gain": 2.9,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 2417.2,
+				"q": 2.23,
+				"gain": 2.5,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 5108.3,
+				"q": 1.25,
+				"gain": 5.8,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 6566.6,
+				"q": 6.87,
+				"gain": -3.2,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 7129.5,
+				"q": 1.74,
+				"gain": -7.4,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 9714.5,
+				"q": 1.94,
+				"gain": -5.4,
+				"color": 0
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000.0,
+				"q": 0.7,
+				"gain": 3.5,
+				"color": 0
+			}
+		]
+	}
+]

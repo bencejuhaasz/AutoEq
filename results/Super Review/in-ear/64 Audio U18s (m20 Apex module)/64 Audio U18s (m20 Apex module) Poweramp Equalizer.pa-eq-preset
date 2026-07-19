@@ -1,0 +1,105 @@
+[
+	{
+		"name": "64 Audio U18s (m20 Apex module) Poweramp Equalizer",
+		"preamp": -5.3,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105.0,
+				"q": 0.7,
+				"gain": -1.4,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 75.5,
+				"q": 1.88,
+				"gain": 0.4,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 151.2,
+				"q": 0.73,
+				"gain": -3.4,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 281.2,
+				"q": 1.38,
+				"gain": -0.4,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 1274.7,
+				"q": 2.44,
+				"gain": -0.5,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 3414.0,
+				"q": 1.71,
+				"gain": 5.5,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 3913.9,
+				"q": 6.03,
+				"gain": -1.2,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 5666.9,
+				"q": 8.06,
+				"gain": 1.9,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 8624.6,
+				"q": 3.29,
+				"gain": 4.1,
+				"color": 0
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000.0,
+				"q": 0.7,
+				"gain": 0.5,
+				"color": 0
+			}
+		]
+	}
+]

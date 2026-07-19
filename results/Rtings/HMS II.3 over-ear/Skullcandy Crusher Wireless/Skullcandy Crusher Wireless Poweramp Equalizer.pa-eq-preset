@@ -1,0 +1,105 @@
+[
+	{
+		"name": "Skullcandy Crusher Wireless Poweramp Equalizer",
+		"preamp": -4.8,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105.0,
+				"q": 0.7,
+				"gain": -8.3,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 48.9,
+				"q": 0.89,
+				"gain": 4.9,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 131.0,
+				"q": 1.39,
+				"gain": -4.4,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 197.3,
+				"q": 1.96,
+				"gain": -2.5,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 515.0,
+				"q": 1.16,
+				"gain": 3.0,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 1819.1,
+				"q": 1.11,
+				"gain": 4.9,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 3122.3,
+				"q": 3.75,
+				"gain": -2.8,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 4464.6,
+				"q": 2.43,
+				"gain": 5.7,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 8723.0,
+				"q": 0.74,
+				"gain": -5.3,
+				"color": 0
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000.0,
+				"q": 0.7,
+				"gain": -2.6,
+				"color": 0
+			}
+		]
+	}
+]

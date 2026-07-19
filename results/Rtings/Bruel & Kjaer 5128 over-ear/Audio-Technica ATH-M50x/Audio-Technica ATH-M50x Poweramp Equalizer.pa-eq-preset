@@ -1,0 +1,105 @@
+[
+	{
+		"name": "Audio-Technica ATH-M50x Poweramp Equalizer",
+		"preamp": -6.0,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105.0,
+				"q": 0.7,
+				"gain": 7.2,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 60.1,
+				"q": 4.16,
+				"gain": 4.6,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 79.6,
+				"q": 0.3,
+				"gain": -0.5,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 82.9,
+				"q": 0.41,
+				"gain": -4.9,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 167.8,
+				"q": 1.28,
+				"gain": -2.3,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 281.7,
+				"q": 1.25,
+				"gain": 7.2,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 2097.6,
+				"q": 2.76,
+				"gain": -2.0,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 4300.2,
+				"q": 5.43,
+				"gain": -4.8,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 5958.0,
+				"q": 4.51,
+				"gain": 4.1,
+				"color": 0
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000.0,
+				"q": 0.7,
+				"gain": -1.5,
+				"color": 0
+			}
+		]
+	}
+]

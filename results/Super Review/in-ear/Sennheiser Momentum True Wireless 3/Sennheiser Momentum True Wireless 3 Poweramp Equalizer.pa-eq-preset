@@ -1,0 +1,105 @@
+[
+	{
+		"name": "Sennheiser Momentum True Wireless 3 Poweramp Equalizer",
+		"preamp": -6.0,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105.0,
+				"q": 0.7,
+				"gain": -2.7,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 72.2,
+				"q": 1.28,
+				"gain": 1.2,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 182.8,
+				"q": 0.64,
+				"gain": -3.9,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 369.8,
+				"q": 1.42,
+				"gain": -0.6,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 813.5,
+				"q": 2.47,
+				"gain": 0.4,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 1454.7,
+				"q": 1.84,
+				"gain": -1.2,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 3697.3,
+				"q": 1.08,
+				"gain": 5.9,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 5661.0,
+				"q": 3.99,
+				"gain": 2.6,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 6191.6,
+				"q": 4.34,
+				"gain": 0.7,
+				"color": 0
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000.0,
+				"q": 0.7,
+				"gain": -1.2,
+				"color": 0
+			}
+		]
+	}
+]

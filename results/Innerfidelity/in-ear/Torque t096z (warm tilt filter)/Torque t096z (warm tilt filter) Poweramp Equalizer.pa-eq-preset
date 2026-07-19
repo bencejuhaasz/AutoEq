@@ -1,0 +1,105 @@
+[
+	{
+		"name": "Torque t096z (warm tilt filter) Poweramp Equalizer",
+		"preamp": -6.6,
+		"parametric": true,
+		"bands": [
+			{
+				"type": 0,
+				"channels": 0,
+				"frequency": 90,
+				"q": 0.8,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 1,
+				"channels": 0,
+				"frequency": 10000,
+				"q": 0.6,
+				"gain": 0.0,
+				"color": 0
+			},
+			{
+				"type": 4,
+				"channels": 0,
+				"frequency": 105.0,
+				"q": 0.7,
+				"gain": -0.3,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 156.3,
+				"q": 0.56,
+				"gain": -4.8,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 248.8,
+				"q": 1.59,
+				"gain": -0.8,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 793.3,
+				"q": 0.96,
+				"gain": 2.7,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 2384.7,
+				"q": 2.96,
+				"gain": -3.5,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 3409.8,
+				"q": 3.13,
+				"gain": 2.2,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 4634.9,
+				"q": 5.13,
+				"gain": -5.3,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 6111.9,
+				"q": 2.18,
+				"gain": 5.8,
+				"color": 0
+			},
+			{
+				"type": 3,
+				"channels": 0,
+				"frequency": 7723.2,
+				"q": 4.67,
+				"gain": 2.6,
+				"color": 0
+			},
+			{
+				"type": 5,
+				"channels": 0,
+				"frequency": 10000.0,
+				"q": 0.7,
+				"gain": 6.6,
+				"color": 0
+			}
+		]
+	}
+]

@@ -215,27 +215,73 @@ class FrequencyResponse:
             f.write(s)
 
     def write_poweramp_json(self, file_path, peqs, name=None):
-        """Writes Poweramp Equalizer preset as a .pa-eq-preset JSON file."""
+        """Writes Poweramp Equalizer preset as a .pa-eq-preset JSON file.
+
+        Poweramp expects exactly 12 bands in a specific order:
+        0: disabled low-shelf placeholder (fixed values)
+        1: disabled high-shelf placeholder (fixed values)
+        4: active low shelf
+        3 (×8): active peaking bands
+        5: active high shelf
+        """
         file_path = os.path.abspath(file_path)
-        type_map = {LowShelf.__name__: 0, HighShelf.__name__: 1, Peaking.__name__: 3}
+        type_map = {LowShelf.__name__: 4, HighShelf.__name__: 5, Peaking.__name__: 3}
         compound = PEQ(self.generate_frequencies(f_step=DEFAULT_BIQUAD_OPTIMIZATION_F_STEP), peqs[0].fs, [])
         for peq in peqs:
             for filt in peq.filters:
                 compound.add_filter(filt)
+        compound.sort_filters()
         if name is None:
             name = os.path.splitext(os.path.basename(file_path))[0]
-        preset = [{
-            'name': name,
-            'preamp': round(-float(compound.max_gain), 1),
-            'parametric': True,
-            'bands': [{
+
+        # Extract filters by type (after sorting: LowShelf, Peaking×N, HighShelf)
+        low_shelf = [f for f in compound.filters if f.__class__.__name__ == LowShelf.__name__]
+        peaking = [f for f in compound.filters if f.__class__.__name__ == Peaking.__name__]
+        high_shelf = [f for f in compound.filters if f.__class__.__name__ == HighShelf.__name__]
+
+        # Build the 12-band array in the required order
+        bands = [
+            # Disabled low-shelf placeholder — always fixed values
+            {'type': 0, 'channels': 0, 'frequency': 90, 'q': 0.8, 'gain': 0.0, 'color': 0},
+            # Disabled high-shelf placeholder — always fixed values
+            {'type': 1, 'channels': 0, 'frequency': 10000, 'q': 0.6, 'gain': 0.0, 'color': 0},
+        ]
+        # Active low shelf (type 4)
+        for filt in low_shelf:
+            bands.append({
                 'type': type_map[filt.__class__.__name__],
                 'channels': 0,
                 'frequency': round(float(filt.fc), 1),
                 'q': round(float(filt.q), 2),
                 'gain': round(float(filt.gain), 1),
                 'color': 0
-            } for filt in compound.filters]
+            })
+        # Active peaking bands (type 3) — exactly 8 expected
+        for filt in peaking:
+            bands.append({
+                'type': type_map[filt.__class__.__name__],
+                'channels': 0,
+                'frequency': round(float(filt.fc), 1),
+                'q': round(float(filt.q), 2),
+                'gain': round(float(filt.gain), 1),
+                'color': 0
+            })
+        # Active high shelf (type 5)
+        for filt in high_shelf:
+            bands.append({
+                'type': type_map[filt.__class__.__name__],
+                'channels': 0,
+                'frequency': round(float(filt.fc), 1),
+                'q': round(float(filt.q), 2),
+                'gain': round(float(filt.gain), 1),
+                'color': 0
+            })
+
+        preset = [{
+            'name': name,
+            'preamp': round(-float(compound.max_gain), 1),
+            'parametric': True,
+            'bands': bands
         }]
         with open(file_path, 'w', encoding='utf-8') as f:
             json.dump(preset, f, indent='\t')

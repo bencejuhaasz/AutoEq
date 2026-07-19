@@ -174,19 +174,47 @@ export default [
       columnNames: { fc: 'Freq', gain: 'Gain', q: 'Q' }
     },
     fileFormatter: (preamp, filters, name) => {
-      const typeMap = { LOW_SHELF: 0, HIGH_SHELF: 1, PEAKING: 3 };
+      const typeMap = { LOW_SHELF: 4, HIGH_SHELF: 5, PEAKING: 3 };
+      const lowShelf = filters.filter(f => f.type === 'LOW_SHELF');
+      const peaking = filters.filter(f => f.type === 'PEAKING');
+      const highShelf = filters.filter(f => f.type === 'HIGH_SHELF');
       const preset = [{
         name: name,
         preamp: parseFloat(preamp.toFixed(1)),
         parametric: true,
-        bands: filters.map(f => ({
-          type: typeMap[f.type],
-          channels: 0,
-          frequency: parseFloat(f.fc.toFixed(1)),
-          q: parseFloat(f.q.toFixed(2)),
-          gain: parseFloat(f.gain.toFixed(1)),
-          color: 0
-        }))
+        bands: [
+          // Disabled low-shelf placeholder — always fixed values
+          { type: 0, channels: 0, frequency: 90, q: 0.8, gain: 0.0, color: 0 },
+          // Disabled high-shelf placeholder — always fixed values
+          { type: 1, channels: 0, frequency: 10000, q: 0.6, gain: 0.0, color: 0 },
+          // Active low shelf
+          ...lowShelf.map(f => ({
+            type: typeMap[f.type],
+            channels: 0,
+            frequency: parseFloat(f.fc.toFixed(1)),
+            q: parseFloat(f.q.toFixed(2)),
+            gain: parseFloat(f.gain.toFixed(1)),
+            color: 0
+          })),
+          // Active peaking bands
+          ...peaking.map(f => ({
+            type: typeMap[f.type],
+            channels: 0,
+            frequency: parseFloat(f.fc.toFixed(1)),
+            q: parseFloat(f.q.toFixed(2)),
+            gain: parseFloat(f.gain.toFixed(1)),
+            color: 0
+          })),
+          // Active high shelf
+          ...highShelf.map(f => ({
+            type: typeMap[f.type],
+            channels: 0,
+            frequency: parseFloat(f.fc.toFixed(1)),
+            q: parseFloat(f.q.toFixed(2)),
+            gain: parseFloat(f.gain.toFixed(1)),
+            color: 0
+          })),
+        ]
       }];
       return JSON.stringify(preset, null, '\t');
     },

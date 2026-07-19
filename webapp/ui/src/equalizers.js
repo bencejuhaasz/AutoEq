@@ -218,7 +218,7 @@ export default [
       }];
       return JSON.stringify(preset, null, '\t');
     },
-    fileName: (name) => `${name} Poweramp Equalizer.pa-eq-preset`,
+    fileName: (name) => `${name} Poweramp Equalizer.json`,
     instructions: 'Download the file, open Poweramp Equalizer, long-press a preset in the Presets list, tap "Import" and select the downloaded file.'
   },
   {

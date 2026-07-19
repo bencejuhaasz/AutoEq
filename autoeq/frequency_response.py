@@ -215,7 +215,7 @@ class FrequencyResponse:
             f.write(s)
 
     def write_poweramp_json(self, file_path, peqs, name=None):
-        """Writes Poweramp Equalizer preset as a .pa-eq-preset JSON file.
+        """Writes Poweramp Equalizer preset as a .json JSON file.
 
         Poweramp expects exactly 12 bands in a specific order:
         0: disabled low-shelf placeholder (fixed values)

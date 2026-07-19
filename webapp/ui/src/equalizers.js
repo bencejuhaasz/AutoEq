@@ -178,6 +178,10 @@ export default [
       const lowShelf = filters.filter(f => f.type === 'LOW_SHELF');
       const peaking = filters.filter(f => f.type === 'PEAKING');
       const highShelf = filters.filter(f => f.type === 'HIGH_SHELF');
+      const peakingColors = [
+        0xff42a5f5, 0xff66bb6a, 0xffef5350, 0xffff7043,
+        0xffab47bc, 0xff26c6da, 0xffffca28, 0xff8d6e63
+      ];
       const preset = [{
         name: name,
         preamp: parseFloat(preamp.toFixed(1)),
@@ -191,28 +195,28 @@ export default [
           ...lowShelf.map(f => ({
             type: typeMap[f.type],
             channels: 0,
-            frequency: parseFloat(f.fc.toFixed(1)),
+            frequency: Math.round(f.fc),
             q: parseFloat(f.q.toFixed(2)),
             gain: parseFloat(f.gain.toFixed(1)),
-            color: 0
+            color: 0xff1e88e5
           })),
           // Active peaking bands
-          ...peaking.map(f => ({
+          ...peaking.map((f, i) => ({
             type: typeMap[f.type],
             channels: 0,
-            frequency: parseFloat(f.fc.toFixed(1)),
+            frequency: Math.round(f.fc),
             q: parseFloat(f.q.toFixed(2)),
             gain: parseFloat(f.gain.toFixed(1)),
-            color: 0
+            color: peakingColors[i] || 0xffaaaaaa
           })),
           // Active high shelf
           ...highShelf.map(f => ({
             type: typeMap[f.type],
             channels: 0,
-            frequency: parseFloat(f.fc.toFixed(1)),
+            frequency: Math.round(f.fc),
             q: parseFloat(f.q.toFixed(2)),
             gain: parseFloat(f.gain.toFixed(1)),
-            color: 0
+            color: 0xffe53935
           })),
         ]
       }];

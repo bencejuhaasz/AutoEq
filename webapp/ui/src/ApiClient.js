@@ -145,6 +145,11 @@ class ApiClient {
       try {
         const errorObject = JSON.parse(errorMessage);
         errorMessage = errorObject.detail;
+        if (Array.isArray(errorMessage)) {
+          errorMessage = errorMessage.map(e => e.msg || JSON.stringify(e)).join('; ');
+        } else if (typeof errorMessage === 'object') {
+          errorMessage = JSON.stringify(errorMessage);
+        }
       } catch {}
       throw new Error(errorMessage);
     }

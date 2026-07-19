@@ -150,7 +150,7 @@ class EqualizeRequest(BaseModel):
 
     @root_validator
     def only_one_eq_type(cls, values):
-        assert values.get('measurement') or (values.get('name') and values.get('source') and values.get('rig')), 'Measurement is required'
+        assert values.get('measurement') or (values.get('name') is not None and values.get('source') is not None and values.get('rig') is not None), 'Measurement is required'
         keys = ['parametric_eq', 'fixed_band_eq', 'equalizer_apo_graphic_eq', 'convolution_eq']
         assert len([key for key in keys if values.get(key)]) < 2, 'Only one equalizer type is allowed'
         return values

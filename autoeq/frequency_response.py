@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*_
 
+import json
 import os
 from copy import deepcopy
 import matplotlib.pyplot as plt
@@ -212,6 +213,33 @@ class FrequencyResponse:
             for i, filt in enumerate(compound.filters):
                 s += f'Filter {i + 1}: ON {types[filt.__class__.__name__]} Fc {filt.fc:.0f} Hz Gain {filt.gain:.1f} dB Q {filt.q:.2f}\n'
             f.write(s)
+
+    def write_poweramp_json(self, file_path, peqs, name=None):
+        """Writes Poweramp Equalizer preset as a .pa-eq-preset JSON file."""
+        file_path = os.path.abspath(file_path)
+        type_map = {LowShelf.__name__: 0, HighShelf.__name__: 1, Peaking.__name__: 3}
+        compound = PEQ(self.generate_frequencies(f_step=DEFAULT_BIQUAD_OPTIMIZATION_F_STEP), peqs[0].fs, [])
+        for peq in peqs:
+            for filt in peq.filters:
+                compound.add_filter(filt)
+        if name is None:
+            name = os.path.splitext(os.path.basename(file_path))[0]
+        preset = [{
+            'name': name,
+            'preamp': round(-float(compound.max_gain), 1),
+            'parametric': True,
+            'bands': [{
+                'type': type_map[filt.__class__.__name__],
+                'channels': 0,
+                'frequency': round(float(filt.fc), 1),
+                'q': round(float(filt.q), 2),
+                'gain': round(float(filt.gain), 1),
+                'color': 0
+            } for filt in compound.filters]
+        }]
+        with open(file_path, 'w', encoding='utf-8') as f:
+            json.dump(preset, f, indent='\t')
+        return preset
 
     def minimum_phase_impulse_response(self, fs=DEFAULT_FS, f_res=DEFAULT_F_RES, normalize=True, preamp=DEFAULT_PREAMP):
         """Generates minimum phase impulse response

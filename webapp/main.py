@@ -248,8 +248,8 @@ def equalize(req: EqualizeRequest):
             treble_f_upper=req.treble_f_upper,
             treble_gain_k=req.treble_gain_k)
 
-        f_step = req.response.fr_f_step if req.response is not None else ResponseRequirements.fr_f_step
-        fr_fields = req.response.fr_fields if req.response is not None else ResponseRequirements.fr_fields
+        f_step = req.response.fr_f_step if req.response is not None else DEFAULT_STEP
+        fr_fields = req.response.fr_fields if req.response is not None else None
         if fr_fields is None:
             fr_fields = list(fr.to_dict().keys())
 
@@ -340,7 +340,7 @@ def equalize(req: EqualizeRequest):
             fir_fr.raw += np.mean(fr.equalization[ix200:] - fir_fr.raw[ix200:])
             res['fr']['convolution_eq'] = fir_fr.raw.tolist()
 
-        base64fp16 = req.response.base64fp16 if req.response is not None else ResponseRequirements.base64fp16
+        base64fp16 = req.response.base64fp16 if req.response is not None else False
         if base64fp16:
             res['fr'] = {key: b64encode(np.array(val, dtype='float16')) for key, val in res['fr'].items()}
 

@@ -169,11 +169,29 @@ export default [
   {
     label: 'Poweramp Equalizer', type: 'parametric', config: 'POWERAMP_EQUALIZER',
     uiConfig: {
-      bw: false, showDownload: false, showFsControl: false,
+      bw: false, showDownload: true, showFsControl: false,
       filterNames: { LOW_SHELF: 'Low Shelf', PEAKING: 'Peaking', HIGH_SHELF: 'High Shelf', PREAMP: 'Preamp' },
       columnNames: { fc: 'Freq', gain: 'Gain', q: 'Q' }
     },
-    instructions: 'Enable Parametric equalizer in the settings. Configure frequency, gain and quality (Q) for each band manually and set preamp.'
+    fileFormatter: (preamp, filters, name) => {
+      const typeMap = { LOW_SHELF: 0, HIGH_SHELF: 1, PEAKING: 3 };
+      const preset = [{
+        name: name,
+        preamp: parseFloat(preamp.toFixed(1)),
+        parametric: true,
+        bands: filters.map(f => ({
+          type: typeMap[f.type],
+          channels: 0,
+          frequency: parseFloat(f.fc.toFixed(1)),
+          q: parseFloat(f.q.toFixed(2)),
+          gain: parseFloat(f.gain.toFixed(1)),
+          color: 0
+        }))
+      }];
+      return JSON.stringify(preset, null, '\t');
+    },
+    fileName: (name) => `${name} Poweramp Equalizer.pa-eq-preset`,
+    instructions: 'Download the file, open Poweramp Equalizer, long-press a preset in the Presets list, tap "Import" and select the downloaded file.'
   },
   {
     label: 'Qudelix-5K', type: 'parametric', config: 'QUDELIX_5K',

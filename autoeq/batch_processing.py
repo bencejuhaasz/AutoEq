@@ -182,6 +182,7 @@ def process_file(
         parametric_peqs = fr.optimize_parametric_eq(
             parametric_eq_config, fs[0], preamp=preamp) if parametric_eq else None
         fr.write_eqapo_parametric_eq(output_file_path.replace('.csv', ' ParametricEQ.txt'), parametric_peqs)
+        fr.write_poweramp_json(output_file_path.replace('.csv', ' Poweramp Equalizer.pa-eq-preset'), parametric_peqs)
     else:
         parametric_peqs = None
 

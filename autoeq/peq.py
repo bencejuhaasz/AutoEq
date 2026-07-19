@@ -561,7 +561,7 @@ class PEQ:
         name_map = {LowShelf.__name__: 'LOW_SHELF', Peaking.__name__: 'PEAKING', HighShelf.__name__: 'HIGH_SHELF'}
         return {
             'fs': self.fs,
-            'filters': [{'type': name_map[filt.__class__.__name__], 'fc': filt.fc, 'q': filt.q, 'gain': filt.gain} for filt in self.filters]
+            'filters': [{'type': name_map[filt.__class__.__name__], 'fc': int(round(filt.fc)), 'q': filt.q, 'gain': filt.gain} for filt in self.filters]
         }
 
     def _parse_optimizer_params(self, params):

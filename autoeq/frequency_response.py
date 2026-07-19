@@ -242,16 +242,16 @@ class FrequencyResponse:
         # Build the 12-band array in the required order
         bands = [
             # Disabled low-shelf placeholder — always fixed values
-            {'type': 0, 'channels': 0, 'frequency': 90, 'q': 0.8, 'gain': 0.0, 'color': 0},
+            {'type': 0, 'channels': 0, 'frequency': int(round(90)), 'q': 0.8, 'gain': 0.0, 'color': 0},
             # Disabled high-shelf placeholder — always fixed values
-            {'type': 1, 'channels': 0, 'frequency': 10000, 'q': 0.6, 'gain': 0.0, 'color': 0},
+            {'type': 1, 'channels': 0, 'frequency': int(round(10000)), 'q': 0.6, 'gain': 0.0, 'color': 0},
         ]
         # Active low shelf (type 4)
         for filt in low_shelf:
             bands.append({
                 'type': type_map[filt.__class__.__name__],
                 'channels': 0,
-                'frequency': round(float(filt.fc)),
+                'frequency': int(round(float(filt.fc))),
                 'q': round(float(filt.q), 2),
                 'gain': round(float(filt.gain), 1),
                 'color': 0xff1e88e5
@@ -266,7 +266,7 @@ class FrequencyResponse:
             bands.append({
                 'type': type_map[filt.__class__.__name__],
                 'channels': 0,
-                'frequency': round(float(filt.fc)),
+                'frequency': int(round(float(filt.fc))),
                 'q': round(float(filt.q), 2),
                 'gain': round(float(filt.gain), 1),
                 'color': peaking_colors[i] if i < len(peaking_colors) else 0xffaaaaaa
@@ -276,7 +276,7 @@ class FrequencyResponse:
             bands.append({
                 'type': type_map[filt.__class__.__name__],
                 'channels': 0,
-                'frequency': round(float(filt.fc)),
+                'frequency': int(round(float(filt.fc))),
                 'q': round(float(filt.q), 2),
                 'gain': round(float(filt.gain), 1),
                 'color': 0xffe53935

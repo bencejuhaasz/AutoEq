@@ -252,24 +252,19 @@ class FrequencyResponse:
                 'type': type_map[filt.__class__.__name__],
                 'channels': 0,
                 'frequency': int(round(float(filt.fc))),
-                'q': round(float(filt.q), 2),
-                'gain': round(float(filt.gain), 1),
-                'color': 0xff1e88e5
+                'q': float(round(float(filt.q), 2)),
+                'gain': float(round(float(filt.gain), 1)),
+                'color': 0
             })
         # Active peaking bands (type 3) — exactly 8 expected
-        for i, filt in enumerate(peaking):
-            # Non-zero ARGB colors matching Poweramp's native band-color scheme
-            peaking_colors = [
-                0xff42a5f5, 0xff66bb6a, 0xffef5350, 0xffff7043,
-                0xffab47bc, 0xff26c6da, 0xffffca28, 0xff8d6e63
-            ]
+        for filt in peaking:
             bands.append({
                 'type': type_map[filt.__class__.__name__],
                 'channels': 0,
                 'frequency': int(round(float(filt.fc))),
-                'q': round(float(filt.q), 2),
-                'gain': round(float(filt.gain), 1),
-                'color': peaking_colors[i] if i < len(peaking_colors) else 0xffaaaaaa
+                'q': float(round(float(filt.q), 2)),
+                'gain': float(round(float(filt.gain), 1)),
+                'color': 0
             })
         # Active high shelf (type 5)
         for filt in high_shelf:
@@ -277,14 +272,14 @@ class FrequencyResponse:
                 'type': type_map[filt.__class__.__name__],
                 'channels': 0,
                 'frequency': int(round(float(filt.fc))),
-                'q': round(float(filt.q), 2),
-                'gain': round(float(filt.gain), 1),
-                'color': 0xffe53935
+                'q': float(round(float(filt.q), 2)),
+                'gain': float(round(float(filt.gain), 1)),
+                'color': 0
             })
 
         preset = [{
             'name': name,
-            'preamp': round(-float(compound.max_gain), 1),
+            'preamp': float(round(-float(compound.max_gain), 1)),
             'parametric': True,
             'bands': bands
         }]

@@ -178,10 +178,6 @@ export default [
       const lowShelf = filters.filter(f => f.type === 'LOW_SHELF');
       const peaking = filters.filter(f => f.type === 'PEAKING');
       const highShelf = filters.filter(f => f.type === 'HIGH_SHELF');
-      const peakingColors = [
-        0xff42a5f5, 0xff66bb6a, 0xffef5350, 0xffff7043,
-        0xffab47bc, 0xff26c6da, 0xffffca28, 0xff8d6e63
-      ];
       const preset = [{
         name: name,
         preamp: parseFloat(preamp.toFixed(1)),
@@ -198,16 +194,16 @@ export default [
             frequency: Math.round(f.fc),
             q: parseFloat(f.q.toFixed(2)),
             gain: parseFloat(f.gain.toFixed(1)),
-            color: 0xff1e88e5
+            color: 0
           })),
           // Active peaking bands
-          ...peaking.map((f, i) => ({
+          ...peaking.map(f => ({
             type: typeMap[f.type],
             channels: 0,
             frequency: Math.round(f.fc),
             q: parseFloat(f.q.toFixed(2)),
             gain: parseFloat(f.gain.toFixed(1)),
-            color: peakingColors[i] || 0xffaaaaaa
+            color: 0
           })),
           // Active high shelf
           ...highShelf.map(f => ({
@@ -216,11 +212,18 @@ export default [
             frequency: Math.round(f.fc),
             q: parseFloat(f.q.toFixed(2)),
             gain: parseFloat(f.gain.toFixed(1)),
-            color: 0xffe53935
+            color: 0
           })),
         ]
       }];
-      return JSON.stringify(preset, null, '\t');
+      // Force gain, q, and preamp to always serialize with a decimal point.
+      // JSON.stringify writes bare integers for whole numbers (e.g. "gain": 0),
+      // but Poweramp expects float formatting (e.g. "gain": 0.0).
+      let json = JSON.stringify(preset, null, '\t');
+      json = json.replace(/"gain": (-?\d+)([,\s\n])/g, '"gain": $1.0$2');
+      json = json.replace(/"q": (-?\d+)([,\s\n])/g, '"q": $1.0$2');
+      json = json.replace(/"preamp": (-?\d+)([,\s\n])/g, '"preamp": $1.0$2');
+      return json;
     },
     fileName: (name) => `${name} Poweramp Equalizer.json`,
     instructions: 'Download the file, open Poweramp Equalizer, long-press a preset in the Presets list, tap "Import" and select the downloaded file.'

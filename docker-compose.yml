@@ -1,0 +1,30 @@
+# AutoEq — one-command launch
+#
+#   docker compose up --build
+#
+# That's it.  The build clones the repo, installs everything, generates the
+# measurement database (~250 MB), and builds the React frontend.  The container
+# serves the API + frontend on a single port.
+#
+# The named volume "autoeq_data" keeps the generated measurement data across
+# rebuilds — drop it with "docker compose down -v" to force a full regeneration.
+
+services:
+  autoeq:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        # Pin a fork, tag, or commit:
+        # REPO_URL: https://github.com/yourname/AutoEq.git
+        # BRANCH: master
+        REPO_URL: https://github.com/jaakkopasanen/AutoEq.git
+        BRANCH: master
+    ports:
+      - "8000:8000"
+    volumes:
+      - autoeq_data:/app/webapp/data
+    restart: unless-stopped
+
+volumes:
+  autoeq_data:

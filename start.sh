@@ -8,6 +8,7 @@
 #   ./start.sh --run-only   # only start services (skip setup)
 #   ./start.sh --backend    # start only the FastAPI backend
 #   ./start.sh --frontend   # start only the React frontend
+#   ./start.sh --prod       # production mode: build frontend, serve via backend
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")" && pwd)"
@@ -20,6 +21,7 @@ setup_only=false
 run_only=false
 backend_only=false
 frontend_only=false
+prod=false
 
 for arg in "$@"; do
   case "$arg" in
@@ -27,6 +29,7 @@ for arg in "$@"; do
     --run-only)   run_only=true ;;
     --backend)    backend_only=true ;;
     --frontend)   frontend_only=true ;;
+    --prod)       prod=true ;;
     *) echo "Unknown flag: $arg"; exit 1 ;;
   esac
 done
@@ -109,6 +112,33 @@ if $do_setup; then
     echo "==> Webapp data files already up to date, skipping generation"
   fi
 
+  # --------------- node / frontend ---------------
+  # node_modules is gitignored and won't survive a git reset / fresh clone.
+  # npm ci restores the exact tree from package-lock.json.
+  echo "==> Checking Node.js"
+  if ! command -v node &>/dev/null; then
+    echo "ERROR: Node.js not found. Install it via nvm or your package manager."
+    exit 1
+  fi
+  echo "    Node $(node --version), npm $(npm --version)"
+
+  echo "==> Installing frontend dependencies"
+  if [ -d "$WEBAPP/ui/node_modules" ]; then
+    echo "    node_modules already present, skipping"
+  else
+    npm ci --prefix "$WEBAPP/ui" 2>&1 | sed 's/^/    /' || {
+      echo "    npm ci failed, falling back to npm install"
+      npm install --prefix "$WEBAPP/ui" 2>&1 | sed 's/^/    /'
+    }
+    echo "    node_modules ready"
+  fi
+
+  if $prod; then
+    echo "==> Building frontend (production)"
+    (cd "$WEBAPP/ui" && npm run build 2>&1 | sed 's/^/    /')
+    echo "    frontend build ready"
+  fi
+
   # --------------- runtime dirs ---------------
   mkdir -p "$WEBAPP/data/audio"
   mkdir -p "$WEBAPP/data/legal"
@@ -131,14 +161,23 @@ if $do_backend || $do_frontend; then
 fi
 
 if $do_backend; then
-  echo "    Backend  → http://0.0.0.0:8000"
-  (
-    cd "$WEBAPP"
-    "$VENV/bin/uvicorn" main:app --host 0.0.0.0 --port 8000 --reload 2>&1 | sed 's/^/[backend] /'
-  ) &
+  if $prod; then
+    echo "    Backend  → http://0.0.0.0:8000  (production — serving built frontend)"
+    export APP_ENV=production
+    (
+      cd "$WEBAPP"
+      "$VENV/bin/uvicorn" main:app --host 0.0.0.0 --port 8000 2>&1 | sed 's/^/[backend] /'
+    ) &
+  else
+    echo "    Backend  → http://0.0.0.0:8000"
+    (
+      cd "$WEBAPP"
+      "$VENV/bin/uvicorn" main:app --host 0.0.0.0 --port 8000 --reload 2>&1 | sed 's/^/[backend] /'
+    ) &
+  fi
 fi
 
-if $do_frontend; then
+if $do_frontend && ! $prod; then
   echo "    Frontend → http://localhost:3000"
   (
     cd "$WEBAPP/ui"

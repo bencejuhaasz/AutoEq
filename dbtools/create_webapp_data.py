@@ -125,6 +125,7 @@ def write_targets():
             'compatible': [
                 {'source': 'Auriculares Argentina', 'form': 'over-ear'},
                 {'source': 'crinacle', 'form': 'over-ear', 'rig': 'GRAS 43AG-7'},
+                {'source': 'DHRME', 'form': 'over-ear'},
                 {'source': 'Filk', 'form': 'over-ear'},
                 {'source': 'kr0mka', 'form': 'over-ear'},
                 {'source': 'Kuulokenurkka', 'form': 'over-ear'},
@@ -136,6 +137,7 @@ def write_targets():
             'recommended': [
                 {'source': 'Auriculares Argentina', 'form': 'over-ear'},
                 {'source': 'crinacle', 'form': 'over-ear', 'rig': 'GRAS 43AG-7'},
+                {'source': 'DHRME', 'form': 'over-ear'},
                 {'source': 'Filk', 'form': 'over-ear'},
                 {'source': 'kr0mka', 'form': 'over-ear'},
                 {'source': 'Kuulokenurkka', 'form': 'over-ear'},

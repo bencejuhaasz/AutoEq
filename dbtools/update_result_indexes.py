@@ -72,6 +72,7 @@ class ResultPath:
         ('HypetheSonics', 'over-ear'),  # Bruel & Kjaer 5128
         ('Rtings', 'Bruel & Kjaer 5128 over-ear'),
         ('Regan Cipher', 'over-ear'),  # No calibration
+        ('DHRME', 'over-ear'),  # No calibration
         ('RikudouGoku', 'over-ear'),  # No calibration
         ('Filk', 'over-ear'),  # STD 2.04 (small sample)
         ('kr0mka', 'over-ear'),  # STD 1.20 (small sample, one outlier increases STD)

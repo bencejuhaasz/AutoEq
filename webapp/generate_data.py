@@ -186,6 +186,7 @@ class ResultPath:
         ('HypetheSonics', 'over-ear'),
         ('Rtings', 'Bruel & Kjaer 5128 over-ear'),
         ('Regan Cipher', 'over-ear'),
+        ('DHRME', 'over-ear'),
         ('RikudouGoku', 'over-ear'),
         ('Filk', 'over-ear'),
         ('kr0mka', 'over-ear'),
